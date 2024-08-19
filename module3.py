@@ -14,7 +14,7 @@ elif system == 'Darwin':
 plt.rcParams['axes.unicode_minus'] = False  
 
 def run():
-    st.title("單元一學習歷程分析")
+    st.title("單元三 植物體內水的移動 學習歷程分析")
     st.markdown("---")
     col1, col2, col3 = st.columns([1, 1, 1])  
     with col2:
@@ -65,7 +65,7 @@ def run():
             st.markdown("---")
 
 def highlight_below_average(s, average):
-    """應用條件格式化來突出顯示低於平均值的單元格"""
+   
   
     tolerance = 0.0001
     return ['background-color: #92a8d1' if v < average - tolerance else '' for v in s]

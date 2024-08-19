@@ -14,14 +14,14 @@ elif system == 'Darwin':
 plt.rcParams['axes.unicode_minus'] = False  
 
 def run():
-    st.title("單元一學習歷程分析")
+    st.title("單元一 多功能的莖 學習歷程分析")
     st.markdown("---")
     col1, col2, col3 = st.columns([1, 1, 1])  
     with col2:
-        st.image("images/1-1.png", use_column_width=True)  
+        st.image("images/6.png", use_column_width=True)  
 
   
-    data_csv = pd.read_csv("data/v1.csv")
+    data_csv = pd.read_csv("data/v2.csv")
 
  
     uploaded_files = st.file_uploader("選擇要上傳的 TXT 文件（每個文件代表一個學生）", type="txt", accept_multiple_files=True)
@@ -65,7 +65,6 @@ def run():
             st.markdown("---")
 
 def highlight_below_average(s, average):
-    """應用條件格式化來突出顯示低於平均值的單元格"""
   
     tolerance = 0.0001
     return ['background-color: #92a8d1' if v < average - tolerance else '' for v in s]
