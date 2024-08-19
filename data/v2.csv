@@ -1,4 +1,4 @@
-,step,historyId,type,answer,text-自學,text-導學,speaker,correct,autoNext,audio-自學,audio-導學,UniqueId,
+Scene_Name,step,historyId,type,answer,text-自學,text-導學,speaker,correct,autoNext,audio-自學,audio-導學,UniqueId,
 VR_Sample,0,903,text,,歡迎光臨-自學模式,歡迎光臨-導學模式,default,,3,0,1,YZHARCAPETVJWZATQOAIPULOARJIYFJTEFBOKSEZXKTZOZ,
 VR_Sample,1,903,text,,在這裡我們會由學生自己探索，會有一些小提示協助你學習,在這裡我們會由老師帶領學生進行導學,default,,3,2,3,OBADQGSKXPXMRTMIPNMJXCGUHCMAZGNDPWDVATRUUGLSFR,
 VR_Sample,2,903,text,,向日葵介紹<image:sunflower.png>,,default,,3,4,5,BPQQYRRPWHIYLUXSSEWOUNCOXHHAWRQPYWBKZMNKLDGOFC,
