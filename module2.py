@@ -21,7 +21,7 @@ def run():
         st.image("images/2-1.png", use_column_width=True)  
 
   
-    data_csv = pd.read_csv("data/v1.csv")
+    data_csv = pd.read_csv("data/v3.csv")
 
  
     uploaded_files = st.file_uploader("選擇要上傳的 TXT 文件（每個文件代表一個學生）", type="txt", accept_multiple_files=True)
